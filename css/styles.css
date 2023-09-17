@@ -67,10 +67,7 @@ body {
 .main-section-btn {
   background-color: #2e2f42;
 }
-.header-list-item a:active,
-.header-list-address-tel a:active {
-  color: #404bbf;
-}
+
 .main-desc-header {
   color: #2e2f42;
   font-size: 20px;
