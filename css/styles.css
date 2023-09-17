@@ -21,32 +21,26 @@ body {
 .page-logo-span {
   color: #2e2f42;
 }
-.header-address {
-  font-style: normal;
-}
-.header-list,
-.header-list-address {
-  font-family: Roboto;
-  font-size: 16px;
+.header-page-link {
+  color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.header-list-item a {
-  color: #2e2f42;
-}
-.header-list-item a:hover,
-.header-list-item a:focus {
+.header-page-link:hover,
+.header-page-link:focus {
   color: #404bbf;
 }
-
-.header-list-address-mail a,
-.header-list-address-tel a {
-  color: inherit;
+.header-contact-link {
+  color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
-.header-list-address-mail a:hover,
-.header-list-address-mail a:focus,
-.header-list-address-mail a:active {
+.header-contact-link:hover,
+.header-contact-link:focus,
+.header-contact-linkl:active {
   color: #404bbf;
 }
 .main-page-header {
@@ -112,8 +106,4 @@ body {
 }
 .footer .text-content {
   color: #f4f4fd;
-}
-.team-list h3,
-.team-list p {
-  text-align: center;
 }
